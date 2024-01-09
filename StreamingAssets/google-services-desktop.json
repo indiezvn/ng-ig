@@ -1,0 +1,83 @@
+{
+  "project_info": {
+    "project_number": "486503104163",
+    "project_id": "idz-nonogram",
+    "storage_bucket": "idz-nonogram.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:486503104163:android:8e7fae924cbe4d97624916",
+        "android_client_info": {
+          "package_name": "com.indiez.nonogram"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "486503104163-hqgt32u031asjvqvlm206v4mfok0p29e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKRTXGggxerajglRAvRe9Mxj7m_rDzySg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "486503104163-hqgt32u031asjvqvlm206v4mfok0p29e.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "486503104163-dlheq8gijjov6ks8t67of82nr4tu39qo.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.indiez.nonogram"
+              }
+            }
+          ]
+        }
+      },
+      "admob_app_id": "ca-app-pub-7464174281967254~8240355978"
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:486503104163:android:8e59e67ae0551d5a624916",
+        "android_client_info": {
+          "package_name": "com.indiez.nonogram.huawei"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "486503104163-hqgt32u031asjvqvlm206v4mfok0p29e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKRTXGggxerajglRAvRe9Mxj7m_rDzySg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "486503104163-hqgt32u031asjvqvlm206v4mfok0p29e.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "486503104163-dlheq8gijjov6ks8t67of82nr4tu39qo.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.indiez.nonogram"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
