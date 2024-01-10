@@ -56,9 +56,9 @@
       var loaderUrl = buildUrl + "/WEBGPU.loader.js";
       var config = {
         arguments: [],
-        dataUrl: buildUrl + "/WEBGPU.data.unityweb",
-        frameworkUrl: buildUrl + "/WEBGPU.framework.js.unityweb",
-        codeUrl: buildUrl + "/WEBGPU.wasm.unityweb",
+        dataUrl: buildUrl + "/WEBGPU.data",
+        frameworkUrl: buildUrl + "/WEBGPU.framework.js",
+        codeUrl: buildUrl + "/WEBGPU.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "INDIEZ GLOBAL PTE. LTD.",
         productName: "Pixel Art",
@@ -96,30 +96,12 @@
 
       document.querySelector("#unity-loading-bar").style.display = "block";
 
-      // var script = document.createElement("script");
-      // script.src = loaderUrl;
-      // script.onload = () => {
-      //   createUnityInstance(canvas, config, (progress) => {
-      //     document.querySelector("#unity-progress-bar-full").style.width = 100 * progress + "%";
-      //         }).then((unityInstance) => {
-      //           document.querySelector("#unity-loading-bar").style.display = "none";
-      //           document.querySelector("#unity-fullscreen-button").onclick = () => {
-      //             unityInstance.SetFullscreen(1);
-      //           };
-
-      //         }).catch((message) => {
-      //           alert(message);
-      //         });
-      //       };
-      // document.body.appendChild(script);
-
       // 把加载Unity游戏代码和素材的代码段提取到一个function中，便于后续调用
       function startUnity(){
         var script = document.createElement("script");
         script.src = loaderUrl;
         script.onload = () => {
           createUnityInstance(canvas, config, (progress) => {
-            console.info("=====> createUnityInstance.progress: " + `${progress}`);
             document.querySelector("#unity-progress-bar-full").style.width = 100 * progress + "%";
                 }).then((unityInstance) => {
                   document.querySelector("#unity-loading-bar").style.display = "none";
@@ -131,6 +113,7 @@
                   alert(message);
                 });
               };
+
         document.body.appendChild(script);
       }
 
